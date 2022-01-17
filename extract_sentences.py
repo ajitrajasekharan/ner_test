@@ -74,10 +74,10 @@ def accrue_unique_mismatched_phrases(stats_dict,orig_sent_arr,terms_arr,span_arr
 
 POS_TERM_POS =  1
 POS_TAG_POS = 2
-def get_stats(gen_st,stats_dict,sent,pos_server_url,mask_tag):
+def get_stats(gen_st,stats_dict,sent,pos_server_url,mask_tag,sample_count):
     if (gen_st):
-        print(str(stats_dict["total"]) + " of  1000")
-        if (stats_dict["total"] >= 1000):
+        print(str(stats_dict["total"]) + " of  " + str(sample_count))
+        if (stats_dict["total"] >= sample_count):
             return
         orig_sent_arr = sent.replace('"','\'').split()
         url = pos_server_url  + sent.replace('"','\'').replace(mask_tag,"")
@@ -173,6 +173,7 @@ def extract(param):
     prefix_i_tag = cf.read_config(param.config)["PREFIX_I_TAG"]
     gen_st = param.gen_stats
     pos_server_url  = cf.read_config(param.config)["POS_SERVER_URL"]
+    phrase_span_sample = param.sample
     max_val = label_index if label_index > term_index else term_index
     max_val = label_index if label_index > term_index else term_index
     
@@ -192,13 +193,13 @@ def extract(param):
                 if (len(accrued_line_arr) > 0):
                     #print(' '.join(accrued_line_arr))
                     wfp.write(' '.join(accrued_line_arr) + "\n")
-                    get_stats(gen_st,stats_dict,' '.join(accrued_line_arr),pos_server_url,mask_tag)
+                    get_stats(gen_st,stats_dict,' '.join(accrued_line_arr),pos_server_url,mask_tag,phrase_span_sample)
                     
                     accrued_line_arr = []
         if (len(accrued_line_arr) > 0):
             #print(' '.join(accrued_line_arr))
             wfp.write(' '.join(accrued_line_arr) + "\n")
-            get_stats(gen_st,stats_dict,' '.join(accrued_line_arr),pos_server_url,mask_tag)
+            get_stats(gen_st,stats_dict,' '.join(accrued_line_arr),pos_server_url,mask_tag,phrase_span_sample)
 
     if (gen_st):
         output_stats(stats_output_file,stats_dict)
@@ -209,6 +210,7 @@ if __name__ == '__main__':
     parser.add_argument('-config', action="store", dest="config",default="extract_config.json",help='Defaul config file for extract params')
     parser.add_argument('-gen_stats', dest="gen_stats", action='store_true',help='Generate stats of phrases spans of labeled terms')
     parser.add_argument('-no-gen_stats', dest="gen_stats", action='store_false',help='Do not generate stats of phrases spans of labeled terms')
+    parser.add_argument('-sample', dest="sample", action='store',type=int,default=1000,help='Default count of phrase span sentence sampling')
     parser.set_defaults(gen_stats=True)
     results = parser.parse_args()
 
