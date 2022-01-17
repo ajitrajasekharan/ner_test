@@ -1,0 +1,4 @@
+git clone https://github.com/ZihanWangKi/CrossWeigh.git
+
+Entities tested:
+LOC,MISC,ORG,PER,O

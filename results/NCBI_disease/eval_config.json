@@ -1,0 +1,22 @@
+{
+    "input": "./ner_output.txt",
+    "ground": "../../datasets/NCBI-disease/test.tsv",
+    "output": "./results.json",
+    "oos_sentences" : "./oos_sentences.txt",
+    "resynced_output": "./resynced_ner_output.txt",
+    "failed_sentences": "./failed_sentences.txt",
+    "passed_sentences": "./passed_sentences.txt",
+    "empty_predictions": "./failed_empty_predictions.txt",
+    "label_index": 1,
+    "term_index": 0,
+    "other_tag": "O",
+    "misc_tag": "O",
+    "fp_type_list":["DISEASE"],
+    "fp_subtype_list":["DISEASE","MENTAL_OR_BEHAVIORAL_DYSFUNCTION","CONGENITAL_ABNORMALITY","CELL_OR_MOLECULAR_DYSFUNCTION"],
+    "fp_type_to_disp_map":{"DISEASE":"DISEASE"},
+    "mapping": [
+            {"g_name":"B", "disp_name":"DISEASE", "map":["DISEASE"]},
+            {"g_name":"I", "disp_name":"DISEASE", "map":["DISEASE"]},
+            {"g_name":"O", "disp_name":"OTHER","map":[]}
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "total": 1000,
+    "mismatched": 49,
+    "sent_length_mismatched": 0,
+    "unique_phrases": {
+        "NN": {
+            "count": 28,
+            "actuals": "JJ_NN_NN"
+        },
+        "JJ": {
+            "count": 28,
+            "actuals": "NN_NN_POS_JJ_NN"
+        },
+        "NNS": {
+            "count": 9,
+            "actuals": "NNS_CD"
+        },
+        "NNP": {
+            "count": 2,
+            "actuals": "NNP_NNP_NNP"
+        },
+        "NNP_NNS": {
+            "count": 1,
+            "actuals": "NNP_NNS_NN"
+        }
+    },
+    "mismatched_percent": 4.9,
+    "sent_length_mismatched_percent": 0.0
+}

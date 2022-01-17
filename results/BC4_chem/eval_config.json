@@ -1,0 +1,22 @@
+{
+    "input": "./ner_output.txt",
+    "ground": "../../datasets/BC4CHEMD/test.tsv",
+    "output": "./results.json",
+    "oos_sentences" : "./oos_sentences.txt",
+    "resynced_output": "./resynced_ner_output.txt",
+    "failed_sentences": "./failed_sentences.txt",
+    "passed_sentences": "./passed_sentences.txt",
+    "empty_predictions": "./failed_empty_predictions.txt",
+    "label_index": 1,
+    "term_index": 0,
+    "other_tag": "O",
+    "misc_tag": "O",
+    "fp_type_list":["THERAPEUTIC_OR_PREVENTIVE_PROCEDURE"],
+    "fp_subtype_list":["DRUG","CHEMICAL_SUBSTANCE","HAZARDOUS_OR_POISONOUS_SUBSTANCE","ESTABLISHED_PHARMACOLOGIC_CLASS","CHEMICAL_CLASS","VITAMIN"],
+    "fp_type_to_disp_map":{"THERAPEUTIC_OR_PREVENTIVE_PROCEDURE":"THERAPEUTIC_OR_PREVENTIVE_PROCEDURE"},
+    "mapping": [
+            {"g_name":"B", "disp_name":"THERAPEUTIC_OR_PREVENTIVE_PROCEDURE", "map":["THERAPEUTIC_OR_PREVENTIVE_PROCEDURE"]},
+            {"g_name":"I", "disp_name":"THERAPEUTIC_OR_PREVENTIVE_PROCEDURE", "map":["THERAPEUTIC_OR_PREVENTIVE_PROCEDURE"]},
+            {"g_name":"O", "disp_name":"OTHER","map":[]}
+    ]
+}

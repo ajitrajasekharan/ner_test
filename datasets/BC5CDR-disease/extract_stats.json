@@ -1,0 +1,89 @@
+{
+    "total": 1000,
+    "mismatched": 116,
+    "sent_length_mismatched": 0,
+    "unique_phrases": {
+        "NN_NN": {
+            "count": 12,
+            "actuals": "JJ_NN_NN"
+        },
+        "JJ_NN": {
+            "count": 16,
+            "actuals": "JJ_NN_JJ"
+        },
+        "JJ_NNS": {
+            "count": 3,
+            "actuals": "JJ_NNS_JJ"
+        },
+        "NNP_NN": {
+            "count": 2,
+            "actuals": "NNP_NN_JJ"
+        },
+        "NN_FW_FW_JJ_NN": {
+            "count": 1,
+            "actuals": "NN_FW_FW_JJ_NN"
+        },
+        "NN": {
+            "count": 73,
+            "actuals": "JJ_NN_NNS"
+        },
+        "JJ_NN_NN": {
+            "count": 3,
+            "actuals": "JJ_NN_NN"
+        },
+        "JJ": {
+            "count": 30,
+            "actuals": "CD_JJ_NNS"
+        },
+        "NN_NNS": {
+            "count": 2,
+            "actuals": "NN_NNS"
+        },
+        "NNP": {
+            "count": 12,
+            "actuals": "JJ_NNP_NNS"
+        },
+        "NNP_POS_NN": {
+            "count": 1,
+            "actuals": "NNP_POS_NN_NNS"
+        },
+        "NNS_POS_NN": {
+            "count": 2,
+            "actuals": "CD_JJ_NNS_POS_NN_NNS"
+        },
+        "JJ_NN_JJ_NN": {
+            "count": 1,
+            "actuals": "JJ_JJ_NN_JJ_NN"
+        },
+        "NNS": {
+            "count": 4,
+            "actuals": "JJS_NNS"
+        },
+        "FW": {
+            "count": 3,
+            "actuals": "FW_CD"
+        },
+        "JJ_JJ_NN": {
+            "count": 1,
+            "actuals": "JJ_JJ_NN"
+        },
+        "NNP_POS_POS_NNP": {
+            "count": 2,
+            "actuals": "NNP_NNP_POS_POS_NNP_NNP_NNP_NNP_NNP"
+        },
+        "JJ_NN_NNS": {
+            "count": 1,
+            "actuals": "JJ_NN_NNS"
+        },
+        "JJ_NNP": {
+            "count": 2,
+            "actuals": "JJ_NNP_JJ"
+        },
+        "JJ_JJ_NN_NN": {
+            "count": 1,
+            "actuals": "JJ_JJ_JJ_NN_NN"
+        }
+    },
+    "mismatched_percent": 11.6,
+    "sent_length_mismatched_percent": 0.0
+}

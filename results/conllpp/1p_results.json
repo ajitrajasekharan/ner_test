@@ -1,0 +1,109 @@
+{
+    "entity_counts": {
+        "PERSON_count": 2779,
+        "LOCATION_count": 1905,
+        "ORGANIZATION_count": 2597,
+        "MISC_count": 977,
+        "OTHER_count": 38408
+    },
+    "entities": {
+        "PERSON": {
+            "PERSON": 2287,
+            "LOCATION": 236,
+            "ORGANIZATION": 2,
+            "MISC": 254,
+            "OTHER": 0
+        },
+        "LOCATION": {
+            "PERSON": 64,
+            "LOCATION": 1603,
+            "ORGANIZATION": 7,
+            "MISC": 231,
+            "OTHER": 0
+        },
+        "ORGANIZATION": {
+            "PERSON": 352,
+            "LOCATION": 992,
+            "ORGANIZATION": 374,
+            "MISC": 879,
+            "OTHER": 0
+        },
+        "MISC": {
+            "PERSON": 315,
+            "LOCATION": 243,
+            "ORGANIZATION": 180,
+            "MISC": 239,
+            "OTHER": 0
+        },
+        "OTHER": {
+            "PERSON": 432,
+            "LOCATION": 269,
+            "ORGANIZATION": 182,
+            "MISC": 0,
+            "OTHER": 37525
+        }
+    },
+    "stats": {
+        "tested_entity_count": 46666,
+        "dual_predictions": 8664,
+        "others_only_sentence_count": 909,
+        "others_only_token_count": 7085,
+        "total_sentences": 3684,
+        "processed_sentences": 3684,
+        "out_of_sync_sentences": 0,
+        "OOS_percent": 0.0,
+        "at_least_one_entity_failed_sentences": 2284,
+        "at_least_one_entity_failed_percent": 62.0,
+        "dual_predictions_percent": 18.57,
+        "others_only_tokens_percent": 15.18,
+        "others_only_sentence_percent": 24.67
+    },
+    "f1_scores": {
+        "PERSON": {
+            "precision": 0.66,
+            "recall": 0.82,
+            "f1_score": 0.73,
+            "recall_val": 2287,
+            "prec_val": 2287,
+            "recall_val_total": 2779,
+            "prec_val_total": 3450
+        },
+        "LOCATION": {
+            "precision": 0.48,
+            "recall": 0.84,
+            "f1_score": 0.61,
+            "recall_val": 1603,
+            "prec_val": 1603,
+            "recall_val_total": 1905,
+            "prec_val_total": 3343
+        },
+        "ORGANIZATION": {
+            "precision": 0.5,
+            "recall": 0.14,
+            "f1_score": 0.22,
+            "recall_val": 374,
+            "prec_val": 374,
+            "recall_val_total": 2597,
+            "prec_val_total": 745
+        },
+        "MISC": {
+            "precision": 0.15,
+            "recall": 0.24,
+            "f1_score": 0.18,
+            "recall_val": 239,
+            "prec_val": 239,
+            "recall_val_total": 977,
+            "prec_val_total": 1603
+        },
+        "OTHER": {
+            "precision": 1.0,
+            "recall": 0.98,
+            "f1_score": 0.99,
+            "recall_val": 37525,
+            "prec_val": 37525,
+            "recall_val_total": 38408,
+            "prec_val_total": 37525
+        }
+    },
+    "average_f1_score": 0.43
+}

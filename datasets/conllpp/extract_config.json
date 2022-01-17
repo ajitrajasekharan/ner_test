@@ -1,0 +1,11 @@
+{
+"POS_SERVER_URL": "http://127.0.0.1:8073/",
+"stats_output_file":"extract_stats.json",
+"input_file":"conllpp_test.txt",
+"output_file":"sentences.txt",
+"MASK_TAG":  ":__entity__",
+"PREFIX_B_TAG" : "B-",
+"PREFIX_I_TAG" : "I-",
+"term_index": 0,
+"label_index": 3
+}

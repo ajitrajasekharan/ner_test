@@ -1,0 +1,97 @@
+{
+    "total": 940,
+    "mismatched": 291,
+    "sent_length_mismatched": 0,
+    "unique_phrases": {
+        "NN": {
+            "count": 44,
+            "actuals": "NNP_NN"
+        },
+        "JJ_NNS": {
+            "count": 7,
+            "actuals": "JJ_NNS"
+        },
+        "JJ": {
+            "count": 6,
+            "actuals": "CD_JJ_NNS"
+        },
+        "NNS": {
+            "count": 3,
+            "actuals": "JJ_NNS"
+        },
+        "NN_NN": {
+            "count": 16,
+            "actuals": "JJR_JJ_NN_NN_NN_JJ"
+        },
+        "JJ_NN": {
+            "count": 39,
+            "actuals": "JJ_NN_NN"
+        },
+        "NNP": {
+            "count": 132,
+            "actuals": "JJ_NNP_JJ_NN"
+        },
+        "NNP_NNP": {
+            "count": 7,
+            "actuals": "NNP_NNP_NN_NNP"
+        },
+        "JJ_NNP": {
+            "count": 1,
+            "actuals": "JJ_NNP"
+        },
+        "JJ_JJ_NN": {
+            "count": 6,
+            "actuals": "NN_JJ_JJ_NN"
+        },
+        "JJ_JJ": {
+            "count": 1,
+            "actuals": "CD_JJ_JJ_NNS"
+        },
+        "NNP_NN": {
+            "count": 12,
+            "actuals": "NNP_NN_NN_NN"
+        },
+        "NN_NNS_NNP_NN": {
+            "count": 1,
+            "actuals": "CD_NN_NNS_NNP_NN"
+        },
+        "JJ_JJ_NN_NN": {
+            "count": 3,
+            "actuals": "JJ_JJ_NN_NN_NNS"
+        },
+        "NNS_POS_NN": {
+            "count": 1,
+            "actuals": "NNS_POS_NN_CD"
+        },
+        "NNP_JJ_NN": {
+            "count": 2,
+            "actuals": "NNP_JJ_NN_NN"
+        },
+        "JJ_JJ_NNS": {
+            "count": 2,
+            "actuals": "JJ_JJ_NNS"
+        },
+        "NNP_NNP_NNP": {
+            "count": 1,
+            "actuals": "NNP_NNP_NNP_NNP_NNP_NNP"
+        },
+        "JJ_NN_NN": {
+            "count": 2,
+            "actuals": "JJ_JJ_NN_NN_NN_NNS"
+        },
+        "JJ_JJ_JJ_NN": {
+            "count": 2,
+            "actuals": "JJ_JJ_JJ_NN_NN"
+        },
+        "JJ_NN_CD": {
+            "count": 1,
+            "actuals": "JJ_NN_CD"
+        },
+        "FW_NN": {
+            "count": 1,
+            "actuals": "JJ_NNS_FW_NN"
+        }
+    },
+    "mismatched_percent": 30.96,
+    "sent_length_mismatched_percent": 0.0
+}

@@ -1,0 +1,49 @@
+{
+    "total": 106,
+    "mismatched": 28,
+    "sent_length_mismatched": 4,
+    "unique_phrases": {
+        "NN": {
+            "count": 14,
+            "actuals": "NNS_NN_NNS_NN_NNS"
+        },
+        "JJ": {
+            "count": 4,
+            "actuals": "JJ_NN_NN"
+        },
+        "NNS": {
+            "count": 8,
+            "actuals": "NNS_JJ"
+        },
+        "NNP": {
+            "count": 11,
+            "actuals": "NN_NNP_NNS"
+        },
+        "JJ_NNS": {
+            "count": 3,
+            "actuals": "JJ_NNS"
+        },
+        "JJ_NN_NNS": {
+            "count": 1,
+            "actuals": "JJ_NN_NNS"
+        },
+        "NNP_NNP_NNP": {
+            "count": 3,
+            "actuals": "NNP_NNP_NNP_NNP"
+        },
+        "NNP_NNP": {
+            "count": 2,
+            "actuals": "NNP_NNP_NNS"
+        },
+        "CD": {
+            "count": 1,
+            "actuals": "CD_NNS"
+        },
+        "JJ_NNP_NN": {
+            "count": 1,
+            "actuals": "JJ_NNP_NN"
+        }
+    },
+    "mismatched_percent": 26.42,
+    "sent_length_mismatched_percent": 3.77
+}

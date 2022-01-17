@@ -1,0 +1,22 @@
+9 data sets for NER testing
+
+These 8 datasets in this directory are from BIOBERT repository
+Each one evaluated on entity and are sentences with B/I/O tags
+https://github.com/dmis-lab/biobert
+
+1) BC2GM - GENE/PROTEIN
+2) JNLPBA -  GENE/PROTEIN
+3) BC4CHEMD - CHEMICAL
+4) BC5CDR-chem - CHEMICAL
+5) BC5CDR-disease - DISEASE
+6) NCBI-disease - DISEASE
+7) linnaeus - SPECIES
+8) s800 - SPECIES
+
+
+
+9) Conll dataset is used to test 4 entity types in one test
+LOC,MISC,ORG,PER
+
+
+

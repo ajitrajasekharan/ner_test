@@ -1,0 +1,52 @@
+{
+    "entity_counts": {
+        "GENE_count": 15101,
+        "OTHER_count": 128364
+    },
+    "entities": {
+        "GENE": {
+            "GENE": 11956,
+            "OTHER": 3145
+        },
+        "OTHER": {
+            "GENE": 600,
+            "OTHER": 127764
+        }
+    },
+    "stats": {
+        "tested_entity_count": 143465,
+        "dual_predictions": 31637,
+        "others_only_sentence_count": 2468,
+        "others_only_token_count": 62194,
+        "total_sentences": 5038,
+        "processed_sentences": 5038,
+        "out_of_sync_sentences": 0,
+        "OOS_percent": 0.0,
+        "at_least_one_entity_failed_sentences": 1355,
+        "at_least_one_entity_failed_percent": 26.9,
+        "dual_predictions_percent": 22.05,
+        "others_only_tokens_percent": 43.35,
+        "others_only_sentence_percent": 48.99
+    },
+    "f1_scores": {
+        "GENE": {
+            "precision": 0.95,
+            "recall": 0.79,
+            "f1_score": 0.86,
+            "recall_val": 11956,
+            "prec_val": 11956,
+            "recall_val_total": 15101,
+            "prec_val_total": 12556
+        },
+        "OTHER": {
+            "precision": 0.98,
+            "recall": 1.0,
+            "f1_score": 0.99,
+            "recall_val": 127764,
+            "prec_val": 127764,
+            "recall_val_total": 128364,
+            "prec_val_total": 130909
+        }
+    },
+    "average_f1_score": 0.86
+}

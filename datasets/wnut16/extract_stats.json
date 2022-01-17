@@ -1,0 +1,97 @@
+{
+    "total": 1000,
+    "mismatched": 435,
+    "sent_length_mismatched": 243,
+    "unique_phrases": {
+        "NNP_NNP_NNP_POS_NNP_NNP": {
+            "count": 1,
+            "actuals": "NNP_NNP_NNP_POS_NNP_NNP_NN"
+        },
+        "NNP": {
+            "count": 161,
+            "actuals": "NNP_NN"
+        },
+        "NNP_NNP": {
+            "count": 76,
+            "actuals": "NNP_NNP_NN_NN"
+        },
+        "NNP_NN": {
+            "count": 3,
+            "actuals": "NNP_NN_FW_NN_NN_NN_CD_NNP_NN_CD_NNP_CD"
+        },
+        "JJ": {
+            "count": 5,
+            "actuals": "JJ_NNP_NNP"
+        },
+        "NNP_NNP_NNP": {
+            "count": 14,
+            "actuals": "NN_NNP_NNP_NNP_NN"
+        },
+        "NN": {
+            "count": 15,
+            "actuals": "NN_NNP"
+        },
+        "NNP_NNP_NN": {
+            "count": 3,
+            "actuals": "JJ_NNP_NNP_NN_NN"
+        },
+        "NNP_NNPS_NNP": {
+            "count": 1,
+            "actuals": "NNP_NNP_NNPS_NNP_NN"
+        },
+        "NNPS": {
+            "count": 2,
+            "actuals": "NNPS_NN"
+        },
+        "NNP_POS": {
+            "count": 1,
+            "actuals": "NNP_NNP_NNP_POS"
+        },
+        "NN_NNP": {
+            "count": 2,
+            "actuals": "NN_NNP_NNS"
+        },
+        "NNS": {
+            "count": 4,
+            "actuals": "NNS_CD_NNP_CD"
+        },
+        "NNP_CD": {
+            "count": 1,
+            "actuals": "NNP_NNP_CD_NN_NNP_NNP"
+        },
+        "NNP_NNP_NNP_NNP": {
+            "count": 3,
+            "actuals": "NNP_NNP_NNP_NNP_NN_NN"
+        },
+        "NN_NN_NN": {
+            "count": 1,
+            "actuals": "NNP_NN_FW_NN_NN_NN_CD_NNP_NN_CD_NNP_CD"
+        },
+        "NNP_POS_NNP": {
+            "count": 2,
+            "actuals": "NNP_POS_NNP_NN_NN"
+        },
+        "NN_NN": {
+            "count": 3,
+            "actuals": "NNS_JJ_NN_NN_NN"
+        },
+        "NNP_NNP_NNP_CD": {
+            "count": 1,
+            "actuals": "NNP_NNP_NNP_CD_NNP_CD_CD"
+        },
+        "NN_NNP_NNP": {
+            "count": 1,
+            "actuals": "NN_NNP_NNP"
+        },
+        "NNS_NNP": {
+            "count": 1,
+            "actuals": "NN_NNS_NNP_NN"
+        },
+        "JJ_NN_NN_NN_NN": {
+            "count": 1,
+            "actuals": "JJ_NN_NN_NN_NN_NNP_CD_CD"
+        }
+    },
+    "mismatched_percent": 43.5,
+    "sent_length_mismatched_percent": 24.3
+}

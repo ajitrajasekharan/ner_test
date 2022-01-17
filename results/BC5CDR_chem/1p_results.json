@@ -1,0 +1,52 @@
+{
+    "entity_counts": {
+        "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE_count": 7013,
+        "OTHER_count": 117735
+    },
+    "entities": {
+        "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": {
+            "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": 6112,
+            "OTHER": 901
+        },
+        "OTHER": {
+            "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": 842,
+            "OTHER": 116893
+        }
+    },
+    "stats": {
+        "tested_entity_count": 124748,
+        "dual_predictions": 14641,
+        "others_only_sentence_count": 1706,
+        "others_only_token_count": 37426,
+        "total_sentences": 4797,
+        "processed_sentences": 4797,
+        "out_of_sync_sentences": 0,
+        "OOS_percent": 0.0,
+        "at_least_one_entity_failed_sentences": 825,
+        "at_least_one_entity_failed_percent": 17.2,
+        "dual_predictions_percent": 11.74,
+        "others_only_tokens_percent": 30.0,
+        "others_only_sentence_percent": 35.56
+    },
+    "f1_scores": {
+        "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": {
+            "precision": 0.88,
+            "recall": 0.87,
+            "f1_score": 0.87,
+            "recall_val": 6112,
+            "prec_val": 6112,
+            "recall_val_total": 7013,
+            "prec_val_total": 6954
+        },
+        "OTHER": {
+            "precision": 0.99,
+            "recall": 0.99,
+            "f1_score": 0.99,
+            "recall_val": 116893,
+            "prec_val": 116893,
+            "recall_val_total": 117735,
+            "prec_val_total": 117794
+        }
+    },
+    "average_f1_score": 0.87
+}

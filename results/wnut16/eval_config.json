@@ -1,0 +1,30 @@
+{
+    "input": "./ner_output.txt",
+    "ground": "../../datasets/wnut16/test.tsv",
+    "output": "./results.json",
+    "oos_sentences" : "./oos_sentences.txt",
+    "resynced_output": "./resynced_ner_output.txt",
+    "failed_sentences": "./failed_sentences.txt",
+    "passed_sentences": "./passed_sentences.txt",
+    "empty_predictions": "./failed_empty_predictions.txt",
+    "label_index": 1,
+    "term_index": 0,
+    "other_tag": "O",
+    "misc_tag": "MISC",
+    "fp_subtype_list":["SPORT","MOV","MUSIC","PRODUCT","MEDICAL_DEVICE","DEVICE"],
+    "fp_type_list":["PERSON","LOCATION","ORGANIZATION","ENT","OBJECT"],
+    "fp_type_to_disp_map":{"PERSON":"PERSON","LOCATION":"LOCATION","ORGANIZATION":"ORGANIZATION","ENT":"ENT","UNIV":"ORGANIZATION","GOV":"ORGANIZATION","EDU":"ORGANIZATION","SPORT":"ENT","MOV":"ENT","MUSIC":"ENT","PRODUCT":"OBJECT","MEDICAL_DEVICE":"OBJECT","DEVICE":"OBJECT","OBJECT":"OBJECT"},
+    "mapping": [
+            {"g_name":"person", "disp_name":"PERSON", "map":["PERSON"]},
+            {"g_name":"geo-loc", "disp_name":"LOCATION","map":["LOCATION"]},
+            {"g_name":"facility", "disp_name":"LOCATION","map":["LOCATION"]},
+            {"g_name":"company", "disp_name":"ORGANIZATION","map":["ORGANIZATION","ENT"]},
+            {"g_name":"movie", "disp_name":"ENT","map":["ENT"]},
+            {"g_name":"musicartist", "disp_name":"ENT","map":["ENT"]},
+            {"g_name":"sportsteam", "disp_name":"ENT","map":["ENT"]},
+            {"g_name":"tvshow", "disp_name":"ENT","map":["ENT"]},
+            {"g_name":"product", "disp_name":"OBJECT","map":["OBJECT"]},
+            {"g_name":"other", "disp_name":"MISC","map":[]},
+            {"g_name":"O", "disp_name":"OTHER","map":[]}
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "total": 1000,
+    "mismatched": 532,
+    "sent_length_mismatched": 62,
+    "unique_phrases": {
+        "NNP": {
+            "count": 413,
+            "actuals": "NNP_POS_CD_CD_NNPS"
+        },
+        "NNP_NNP_NNPS": {
+            "count": 5,
+            "actuals": "JJ_NNP_NNP_NNPS"
+        },
+        "NNP_NNP": {
+            "count": 299,
+            "actuals": "JJ_NNP_NNP_NNP"
+        },
+        "JJ": {
+            "count": 84,
+            "actuals": "NN_POS_JJ_NN"
+        },
+        "JJ_NNPS": {
+            "count": 1,
+            "actuals": "JJ_NNPS_NN_CD_NNS"
+        },
+        "CD_NNP_NNP": {
+            "count": 1,
+            "actuals": "CD_NNP_NNP"
+        },
+        "NN_NNP": {
+            "count": 23,
+            "actuals": "NN_NNP_CD_CD"
+        },
+        "NNP_NNPS": {
+            "count": 15,
+            "actuals": "JJ_NNP_NNPS"
+        },
+        "NN_NN": {
+            "count": 4,
+            "actuals": "POS_NN_NN"
+        },
+        "NN_NNP_NNP": {
+            "count": 2,
+            "actuals": "NN_NNP_NNP_NNS"
+        },
+        "NNP_NN": {
+            "count": 8,
+            "actuals": "NNP_NNP_POS_JJ_NNP_NN"
+        },
+        "NNS": {
+            "count": 17,
+            "actuals": "NNS_CD_CD_CD_CD_CD_CD_CD"
+        },
+        "JJ_NNP": {
+            "count": 8,
+            "actuals": "JJ_NNP_CD_CD_CD_CD_CD_CD_CD"
+        },
+        "NN": {
+            "count": 34,
+            "actuals": "NNP_JJ_NN"
+        },
+        "NNP_POS": {
+            "count": 1,
+            "actuals": "NNP_POS_JJ_NN"
+        },
+        "NNPS": {
+            "count": 5,
+            "actuals": "NNP_POS_CD_CD_NNPS"
+        },
+        "NN_JJ": {
+            "count": 1,
+            "actuals": "NN_JJ_JJ_NN_NNS"
+        },
+        "NNP_NNP_NNP": {
+            "count": 26,
+            "actuals": "JJ_NNP_NNP_NNP"
+        },
+        "NNP_FW_NNP": {
+            "count": 1,
+            "actuals": "NNP_NNP_CD_CD_CD_NNP_FW_NNP"
+        },
+        "NNPS_POS_NN": {
+            "count": 2,
+            "actuals": "JJ_NNPS_POS_NN_NN"
+        },
+        "NN_NN_NN_NN": {
+            "count": 1,
+            "actuals": "NN_NNP_NN_NN_NN_NN_NNP"
+        },
+        "NN_NNS": {
+            "count": 1,
+            "actuals": "NN_NNS_CD"
+        },
+        "NNP_NNP_NNPS_POS_NNP": {
+            "count": 1,
+            "actuals": "NNP_NNP_NNPS_POS_NNP_NN"
+        },
+        "JJ_NN": {
+            "count": 1,
+            "actuals": "JJ_NN"
+        },
+        "NNP_NNS": {
+            "count": 6,
+            "actuals": "NNP_NNS_CD_CD_CD_CD_CD_CD"
+        },
+        "CD_NNP": {
+            "count": 2,
+            "actuals": "NNP_NNP_CD_CD_NNP_CD"
+        },
+        "NNP_NN_NNP": {
+            "count": 2,
+            "actuals": "JJ_NN_NNP_NN_NNP"
+        },
+        "JJ_NNP_NNP": {
+            "count": 2,
+            "actuals": "JJ_NNP_NNP_NN_NNS"
+        },
+        "NNP_NNPS_POS_NNP": {
+            "count": 2,
+            "actuals": "JJ_NNP_NNPS_POS_NNP_NN"
+        },
+        "NNP_FW": {
+            "count": 1,
+            "actuals": {}
+        },
+        "NNP_NNP_NN": {
+            "count": 1,
+            "actuals": "NNP_NNP_NN"
+        },
+        "JJ_NNS": {
+            "count": 1,
+            "actuals": "JJ_NNS_CD_CD_CD_CD_CD_CD_CD"
+        },
+        "NNP_NNP_NNP_NNP": {
+            "count": 2,
+            "actuals": "NNP_NNP_NNP_NNP"
+        },
+        "JJ_NNP_NN": {
+            "count": 1,
+            "actuals": "JJ_NNP_NN_NNS"
+        },
+        "NNP_NNP_CD": {
+            "count": 2,
+            "actuals": "NNP_NNP_CD"
+        },
+        "JJ_JJ": {
+            "count": 1,
+            "actuals": "JJ_JJ_NNS"
+        }
+    },
+    "mismatched_percent": 53.2,
+    "sent_length_mismatched_percent": 6.2
+}

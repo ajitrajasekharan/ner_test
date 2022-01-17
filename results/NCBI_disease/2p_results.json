@@ -1,0 +1,52 @@
+{
+    "entity_counts": {
+        "DISEASE_count": 2047,
+        "OTHER_count": 22449
+    },
+    "entities": {
+        "DISEASE": {
+            "DISEASE": 1900,
+            "OTHER": 147
+        },
+        "OTHER": {
+            "DISEASE": 410,
+            "OTHER": 22039
+        }
+    },
+    "stats": {
+        "tested_entity_count": 24496,
+        "dual_predictions": 4720,
+        "others_only_sentence_count": 401,
+        "others_only_token_count": 9761,
+        "total_sentences": 940,
+        "processed_sentences": 940,
+        "out_of_sync_sentences": 0,
+        "OOS_percent": 0.0,
+        "at_least_one_entity_failed_sentences": 245,
+        "at_least_one_entity_failed_percent": 26.06,
+        "dual_predictions_percent": 19.27,
+        "others_only_tokens_percent": 39.85,
+        "others_only_sentence_percent": 42.66
+    },
+    "f1_scores": {
+        "DISEASE": {
+            "precision": 0.82,
+            "recall": 0.93,
+            "f1_score": 0.87,
+            "recall_val": 1900,
+            "prec_val": 1900,
+            "recall_val_total": 2047,
+            "prec_val_total": 2310
+        },
+        "OTHER": {
+            "precision": 0.99,
+            "recall": 0.98,
+            "f1_score": 0.98,
+            "recall_val": 22039,
+            "prec_val": 22039,
+            "recall_val_total": 22449,
+            "prec_val_total": 22186
+        }
+    },
+    "average_f1_score": 0.87
+}

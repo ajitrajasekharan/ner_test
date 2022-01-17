@@ -1,0 +1,157 @@
+{
+    "entity_counts": {
+        "PERSON_count": 782,
+        "LOCATION_count": 1717,
+        "ORGANIZATION_count": 885,
+        "ENT_count": 681,
+        "OBJECT_count": 746,
+        "MISC_count": 1139,
+        "OTHER_count": 55906
+    },
+    "entities": {
+        "PERSON": {
+            "PERSON": 687,
+            "LOCATION": 28,
+            "ORGANIZATION": 2,
+            "ENT": 1,
+            "OBJECT": 0,
+            "MISC": 64,
+            "OTHER": 0
+        },
+        "LOCATION": {
+            "PERSON": 110,
+            "LOCATION": 1303,
+            "ORGANIZATION": 20,
+            "ENT": 1,
+            "OBJECT": 2,
+            "MISC": 281,
+            "OTHER": 0
+        },
+        "ORGANIZATION": {
+            "PERSON": 219,
+            "LOCATION": 141,
+            "ORGANIZATION": 222,
+            "ENT": 9,
+            "OBJECT": 0,
+            "MISC": 294,
+            "OTHER": 0
+        },
+        "ENT": {
+            "PERSON": 294,
+            "LOCATION": 133,
+            "ORGANIZATION": 25,
+            "ENT": 43,
+            "OBJECT": 1,
+            "MISC": 185,
+            "OTHER": 0
+        },
+        "OBJECT": {
+            "PERSON": 219,
+            "LOCATION": 41,
+            "ORGANIZATION": 20,
+            "ENT": 51,
+            "OBJECT": 9,
+            "MISC": 406,
+            "OTHER": 0
+        },
+        "MISC": {
+            "PERSON": 248,
+            "LOCATION": 206,
+            "ORGANIZATION": 89,
+            "ENT": 46,
+            "OBJECT": 0,
+            "MISC": 550,
+            "OTHER": 0
+        },
+        "OTHER": {
+            "PERSON": 0,
+            "LOCATION": 0,
+            "ORGANIZATION": 0,
+            "ENT": 47,
+            "OBJECT": 29,
+            "MISC": 0,
+            "OTHER": 55830
+        }
+    },
+    "stats": {
+        "tested_entity_count": 61856,
+        "dual_predictions": 16402,
+        "others_only_sentence_count": 1835,
+        "others_only_token_count": 25994,
+        "total_sentences": 3850,
+        "processed_sentences": 3847,
+        "out_of_sync_sentences": 3,
+        "OOS_percent": 0.08,
+        "at_least_one_entity_failed_sentences": 1422,
+        "at_least_one_entity_failed_percent": 36.94,
+        "dual_predictions_percent": 26.52,
+        "others_only_tokens_percent": 42.02,
+        "others_only_sentence_percent": 47.66
+    },
+    "f1_scores": {
+        "PERSON": {
+            "precision": 0.39,
+            "recall": 0.88,
+            "f1_score": 0.54,
+            "recall_val": 687,
+            "prec_val": 687,
+            "recall_val_total": 782,
+            "prec_val_total": 1777
+        },
+        "LOCATION": {
+            "precision": 0.7,
+            "recall": 0.76,
+            "f1_score": 0.73,
+            "recall_val": 1303,
+            "prec_val": 1303,
+            "recall_val_total": 1717,
+            "prec_val_total": 1852
+        },
+        "ORGANIZATION": {
+            "precision": 0.59,
+            "recall": 0.25,
+            "f1_score": 0.35,
+            "recall_val": 222,
+            "prec_val": 222,
+            "recall_val_total": 885,
+            "prec_val_total": 378
+        },
+        "ENT": {
+            "precision": 0.22,
+            "recall": 0.06,
+            "f1_score": 0.09,
+            "recall_val": 43,
+            "prec_val": 43,
+            "recall_val_total": 681,
+            "prec_val_total": 198
+        },
+        "OBJECT": {
+            "precision": 0.22,
+            "recall": 0.01,
+            "f1_score": 0.02,
+            "recall_val": 9,
+            "prec_val": 9,
+            "recall_val_total": 746,
+            "prec_val_total": 41
+        },
+        "MISC": {
+            "precision": 0.31,
+            "recall": 0.48,
+            "f1_score": 0.38,
+            "recall_val": 550,
+            "prec_val": 550,
+            "recall_val_total": 1139,
+            "prec_val_total": 1780
+        },
+        "OTHER": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "recall_val": 55830,
+            "prec_val": 55830,
+            "recall_val_total": 55906,
+            "prec_val_total": 55830
+        }
+    },
+    "average_f1_score": 0.35
+}

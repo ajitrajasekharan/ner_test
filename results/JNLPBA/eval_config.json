@@ -1,0 +1,22 @@
+{
+    "input": "./ner_output.txt",
+    "ground": "../../datasets/JNLPBA/test.tsv",
+    "output": "./results.json",
+    "oos_sentences" : "./oos_sentences.txt",
+    "resynced_output": "./resynced_ner_output.txt",
+    "failed_sentences": "./failed_sentences.txt",
+    "passed_sentences": "./passed_sentences.txt",
+    "empty_predictions": "./failed_empty_predictions.txt",
+    "label_index": 1,
+    "term_index": 0,
+    "other_tag": "O",
+    "misc_tag": "O",
+    "fp_type_list":["GENE","BODY_PART_OR_ORGAN_OR_ORGAN_COMPONENT"],
+    "fp_subtype_list":["GENE","PROTEIN","ENZYME","VIRAL_PROTEIN","RECEPTOR","PROTEIN_FAMILY","MOUSE_PROTEIN_FAMILY","MOUSE_GENE","NUCLEOTIDE_SEQUENCE","BODY_PART_OR_ORGAN_COMPONENT","BODY_LOCATION_OR_REGION","BODY_SUBSTANCE","CELL","CELL_LINE","CELL_COMPONENT","BIO_MOLECULE","METABOLITE","HORMONE"],
+    "fp_type_to_disp_map":{"GENE":"GENE","BODY_PART_OR_ORGAN_OR_ORGAN_COMPONENT":"GENE"},
+    "mapping": [
+            {"g_name":"B", "disp_name":"GENE", "map":["GENE","BODY_PART_OR_ORGAN_OR_ORGAN_COMPONENT"]},
+            {"g_name":"I", "disp_name":"GENE", "map":["GENE","BODY_PART_OR_ORGAN_OR_ORGAN_COMPONENT"]},
+            {"g_name":"O", "disp_name":"OTHER","map":[]}
+    ]
+}

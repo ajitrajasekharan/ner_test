@@ -1,0 +1,22 @@
+{
+    "input": "./ner_output.txt",
+    "ground": "../../datasets/linnaeus/test.tsv",
+    "output": "./results.json",
+    "oos_sentences" : "./oos_sentences.txt",
+    "resynced_output": "./resynced_ner_output.txt",
+    "failed_sentences": "./failed_sentences.txt",
+    "passed_sentences": "./passed_sentences.txt",
+    "empty_predictions": "./failed_empty_predictions.txt",
+    "label_index": 1,
+    "term_index": 0,
+    "other_tag": "O",
+    "misc_tag": "O",
+    "fp_type_list":["BIO","PERSON"],
+    "fp_subtype_list":["BACTERIUM","VIRUS"],
+    "fp_type_to_disp_map":{"BIO":"BIO","PERSON":"BIO"},
+    "mapping": [
+            {"g_name":"B", "disp_name":"BIO", "map":["BIO","PERSON"]},
+            {"g_name":"I", "disp_name":"BIO", "map":["BIO","PERSON"]},
+            {"g_name":"O", "disp_name":"OTHER","map":[]}
+    ]
+}

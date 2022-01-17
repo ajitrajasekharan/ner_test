@@ -1,0 +1,52 @@
+{
+    "entity_counts": {
+        "BIO_count": 1810,
+        "OTHER_count": 40488
+    },
+    "entities": {
+        "BIO": {
+            "BIO": 1230,
+            "OTHER": 580
+        },
+        "OTHER": {
+            "BIO": 83,
+            "OTHER": 40405
+        }
+    },
+    "stats": {
+        "tested_entity_count": 42298,
+        "dual_predictions": 11181,
+        "others_only_sentence_count": 1144,
+        "others_only_token_count": 27606,
+        "total_sentences": 1630,
+        "processed_sentences": 1630,
+        "out_of_sync_sentences": 0,
+        "OOS_percent": 0.0,
+        "at_least_one_entity_failed_sentences": 265,
+        "at_least_one_entity_failed_percent": 16.26,
+        "dual_predictions_percent": 26.43,
+        "others_only_tokens_percent": 65.27,
+        "others_only_sentence_percent": 70.18
+    },
+    "f1_scores": {
+        "BIO": {
+            "precision": 0.94,
+            "recall": 0.68,
+            "f1_score": 0.79,
+            "recall_val": 1230,
+            "prec_val": 1230,
+            "recall_val_total": 1810,
+            "prec_val_total": 1313
+        },
+        "OTHER": {
+            "precision": 0.99,
+            "recall": 1.0,
+            "f1_score": 0.99,
+            "recall_val": 40405,
+            "prec_val": 40405,
+            "recall_val_total": 40488,
+            "prec_val_total": 40985
+        }
+    },
+    "average_f1_score": 0.79
+}
