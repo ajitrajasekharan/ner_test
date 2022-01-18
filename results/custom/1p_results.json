@@ -1,28 +1,28 @@
 {
     "entity_counts": {
-        "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE_count": 33,
-        "DISEASE_count": 40,
+        "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE_count": 36,
+        "DISEASE_count": 50,
         "GENE_count": 13,
         "BODY_PART_OR_ORGAN_COMPONENT_count": 14,
         "ORGANISM_FUNCTION_count": 0,
         "BIO_count": 5,
         "OBJECT_count": 1,
-        "MEASURE_count": 9,
-        "PERSON_count": 30,
+        "MEASURE_count": 27,
+        "PERSON_count": 45,
         "ORGANIZATION_count": 6,
         "ENT_count": 8,
-        "LOCATION_count": 16,
+        "LOCATION_count": 30,
         "SOCIAL_CIRCUMSTANCES_count": 1,
         "COLOR_count": 2,
         "LANGUAGE_count": 1,
         "GRAMMAR_CONSTRUCT_count": 1,
         "OTHER_count": 0,
-        "O_count": 1442
+        "O_count": 1566
     },
     "entities": {
         "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": {
-            "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": 31,
-            "DISEASE": 0,
+            "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": 34,
+            "DISEASE": 1,
             "GENE": 0,
             "BODY_PART_OR_ORGAN_COMPONENT": 0,
             "ORGANISM_FUNCTION": 0,
@@ -38,11 +38,11 @@
             "LANGUAGE": 0,
             "GRAMMAR_CONSTRUCT": 0,
             "OTHER": 0,
-            "O": 1
+            "O": 0
         },
         "DISEASE": {
             "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": 0,
-            "DISEASE": 39,
+            "DISEASE": 50,
             "GENE": 0,
             "BODY_PART_OR_ORGAN_COMPONENT": 0,
             "ORGANISM_FUNCTION": 0,
@@ -58,7 +58,7 @@
             "LANGUAGE": 0,
             "GRAMMAR_CONSTRUCT": 0,
             "OTHER": 0,
-            "O": 1
+            "O": 0
         },
         "GENE": {
             "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": 1,
@@ -168,7 +168,7 @@
             "ORGANISM_FUNCTION": 0,
             "BIO": 0,
             "OBJECT": 0,
-            "MEASURE": 9,
+            "MEASURE": 27,
             "PERSON": 0,
             "ORGANIZATION": 0,
             "ENT": 0,
@@ -189,7 +189,7 @@
             "BIO": 0,
             "OBJECT": 0,
             "MEASURE": 0,
-            "PERSON": 28,
+            "PERSON": 45,
             "ORGANIZATION": 0,
             "ENT": 0,
             "LOCATION": 0,
@@ -198,7 +198,7 @@
             "LANGUAGE": 0,
             "GRAMMAR_CONSTRUCT": 0,
             "OTHER": 0,
-            "O": 2
+            "O": 0
         },
         "ORGANIZATION": {
             "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": 1,
@@ -252,13 +252,13 @@
             "PERSON": 0,
             "ORGANIZATION": 0,
             "ENT": 0,
-            "LOCATION": 12,
+            "LOCATION": 28,
             "SOCIAL_CIRCUMSTANCES": 0,
             "COLOR": 0,
             "LANGUAGE": 0,
             "GRAMMAR_CONSTRUCT": 0,
             "OTHER": 0,
-            "O": 2
+            "O": 0
         },
         "SOCIAL_CIRCUMSTANCES": {
             "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": 0,
@@ -362,7 +362,7 @@
         },
         "O": {
             "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": 0,
-            "DISEASE": 1,
+            "DISEASE": 0,
             "GENE": 0,
             "BODY_PART_OR_ORGAN_COMPONENT": 0,
             "ORGANISM_FUNCTION": 0,
@@ -378,42 +378,42 @@
             "LANGUAGE": 0,
             "GRAMMAR_CONSTRUCT": 0,
             "OTHER": 0,
-            "O": 1441
+            "O": 1566
         }
     },
     "stats": {
-        "tested_entity_count": 1622,
-        "dual_predictions": 87,
+        "tested_entity_count": 1806,
+        "dual_predictions": 128,
         "others_only_sentence_count": 0,
         "others_only_token_count": 0,
         "total_sentences": 106,
-        "processed_sentences": 89,
-        "out_of_sync_sentences": 17,
-        "OOS_percent": 16.04,
-        "at_least_one_entity_failed_sentences": 21,
-        "at_least_one_entity_failed_percent": 19.81,
-        "dual_predictions_percent": 5.36,
+        "processed_sentences": 106,
+        "out_of_sync_sentences": 0,
+        "OOS_percent": 0.0,
+        "at_least_one_entity_failed_sentences": 18,
+        "at_least_one_entity_failed_percent": 16.98,
+        "dual_predictions_percent": 7.09,
         "others_only_tokens_percent": 0.0,
         "others_only_sentence_percent": 0.0
     },
     "f1_scores": {
         "THERAPEUTIC_OR_PREVENTIVE_PROCEDURE": {
-            "precision": 0.86,
+            "precision": 0.87,
             "recall": 0.94,
             "f1_score": 0.9,
-            "recall_val": 31,
-            "prec_val": 31,
-            "recall_val_total": 33,
-            "prec_val_total": 36
+            "recall_val": 34,
+            "prec_val": 34,
+            "recall_val_total": 36,
+            "prec_val_total": 39
         },
         "DISEASE": {
-            "precision": 0.91,
-            "recall": 0.97,
-            "f1_score": 0.94,
-            "recall_val": 39,
-            "prec_val": 39,
-            "recall_val_total": 40,
-            "prec_val_total": 43
+            "precision": 0.93,
+            "recall": 1.0,
+            "f1_score": 0.96,
+            "recall_val": 50,
+            "prec_val": 50,
+            "recall_val_total": 50,
+            "prec_val_total": 54
         },
         "GENE": {
             "precision": 1.0,
@@ -461,22 +461,22 @@
             "prec_val_total": 1
         },
         "MEASURE": {
-            "precision": 0.82,
+            "precision": 0.93,
             "recall": 1.0,
-            "f1_score": 0.9,
-            "recall_val": 9,
-            "prec_val": 9,
-            "recall_val_total": 9,
-            "prec_val_total": 11
+            "f1_score": 0.96,
+            "recall_val": 27,
+            "prec_val": 27,
+            "recall_val_total": 27,
+            "prec_val_total": 29
         },
         "PERSON": {
-            "precision": 0.88,
-            "recall": 0.93,
-            "f1_score": 0.9,
-            "recall_val": 28,
-            "prec_val": 28,
-            "recall_val_total": 30,
-            "prec_val_total": 32
+            "precision": 0.92,
+            "recall": 1.0,
+            "f1_score": 0.96,
+            "recall_val": 45,
+            "prec_val": 45,
+            "recall_val_total": 45,
+            "prec_val_total": 49
         },
         "ORGANIZATION": {
             "precision": 1.0,
@@ -497,13 +497,13 @@
             "prec_val_total": 5
         },
         "LOCATION": {
-            "precision": 0.71,
-            "recall": 0.75,
-            "f1_score": 0.73,
-            "recall_val": 12,
-            "prec_val": 12,
-            "recall_val_total": 16,
-            "prec_val_total": 17
+            "precision": 0.85,
+            "recall": 0.93,
+            "f1_score": 0.89,
+            "recall_val": 28,
+            "prec_val": 28,
+            "recall_val_total": 30,
+            "prec_val_total": 33
         },
         "SOCIAL_CIRCUMSTANCES": {
             "precision": 0,
@@ -554,11 +554,11 @@
             "precision": 1.0,
             "recall": 1.0,
             "f1_score": 1.0,
-            "recall_val": 1441,
-            "prec_val": 1441,
-            "recall_val_total": 1442,
-            "prec_val_total": 1447
+            "recall_val": 1566,
+            "prec_val": 1566,
+            "recall_val_total": 1566,
+            "prec_val_total": 1566
         }
     },
-    "average_f1_score": 0.85
+    "average_f1_score": 0.88
 }

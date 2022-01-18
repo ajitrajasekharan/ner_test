@@ -306,7 +306,7 @@ more O O
 susceptible O O
 to O O
 the O O
-hypertensive B_DISEASE_ADJECTIVE B_DISEASE_ADJECTIVE[DISEASE]
+hypertensive B_DISEASE_ADJECTIVE B_DISEASE_ADJECTIVE[DISEASE]/B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
 effects O O
 . O O
 
@@ -516,7 +516,8 @@ worldwide O O
 source O O
 of O O
 low-molecular-weight O O
-urokinase B_DRUG O
+urokinase B_DRUG B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
+. O O
 
 Additionally, O O
 the O O
@@ -1381,7 +1382,7 @@ for O O
 Parkinsons B_DISEASE B_DISEASE
 . O O
 
-Stanford B_LOCATION B_LOCATION/B_PERSON
+Stanford B_LOCATION B_LOCATION/B_STUDY[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
 called O O
 . O O
 
@@ -1512,7 +1513,7 @@ and O O
 the O O
 highest O O
 per-capita O O
-incarceration O B_DISEASE/B_THERAPEUTIC_OR_PREVENTIVE_PROCEDURE
+incarceration O O
 rate O O
 . O O
 
@@ -1556,8 +1557,8 @@ and O O
 came O O
 third B_SEQUENCE B_SEQUENCE[MEASURE]
 in O O
-Ice B_SPORT B_LOCATION
-hockey I_SPORT I_LOCATION
+Ice B_SPORT B_LOCATION/B_STUDY[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
+hockey I_SPORT I_LOCATION/I_STUDY[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
 . O O
 
 She O O
@@ -1565,7 +1566,7 @@ ran O O
 over O O
 to O O
 her O O
-son B_PERSON O
+son B_PERSON B_PERSON
 and O O
 gave O O
 him O O
@@ -1648,12 +1649,12 @@ Parkinson B_PERSON B_PERSON
 was O O
 diagnosed O O
 with O O
-lou B_DISEASE O
-gehrig's I_DISEASE B_DISEASE
+lou B_DISEASE B_DISEASE
+gehrig's I_DISEASE I_DISEASE
 . O O
 
-Lou B_PERSON O
-Gehrig I_PERSON B_PERSON
+Lou B_PERSON B_PERSON
+Gehrig I_PERSON I_PERSON
 who O O
 works O O
 for O O
@@ -1661,8 +1662,8 @@ XCorp B_ORGANIZATION B_ORGANIZATION/B_PERSON
 and O O
 lives O O
 in O O
-New B_LOCATION O
-York I_LOCATION O
+New B_LOCATION B_LOCATION
+York I_LOCATION I_LOCATION
 suffers O O
 from O O
 Parkinson's B_DISEASE B_DISEASE
@@ -1707,5 +1708,205 @@ friends O O
 at O O
 the O O
 pub B_LOCATION B_LOCATION
+. O O
+
+I O O
+met O O
+my O O
+girl B_PERSON B_PERSON/B_ENT
+friends I_PERSON I_PERSON/I_ENT
+at O O
+the O O
+pub B_LOCATION B_LOCATION
+. O O
+
+I O O
+met O O
+my O O
+New B_PERSON B_PERSON/B_ORGANIZATION
+York I_PERSON I_PERSON/I_ORGANIZATION
+friends I_PERSON I_PERSON/I_ORGANIZATION
+at O O
+the O O
+pub B_LOCATION B_LOCATION
+. O O
+
+I O O
+met O O
+my O O
+XCorp B_PERSON B_PERSON/B_ORGANIZATION
+friends I_PERSON I_PERSON/I_ORGANIZATION
+at O O
+the O O
+pub B_LOCATION B_LOCATION
+. O O
+
+I O O
+met O O
+my O O
+two B_PERSON B_PERSON/B_ENT
+friends I_PERSON I_PERSON/I_ENT
+at O O
+the O O
+pub B_LOCATION B_LOCATION
+. O O
+
+He O O
+was O O
+diagnosed O O
+with O O
+non B_DISEASE B_DISEASE
+small I_DISEASE I_DISEASE
+cell I_DISEASE I_DISEASE
+lung I_DISEASE I_DISEASE
+cancer I_DISEASE I_DISEASE
+. O O
+
+He O O
+was O O
+diagnosed O O
+with O O
+non O O
+small_ O O
+cell O O
+lung O O
+cancer B_DISEASE B_DISEASE
+. O O
+
+Her O O
+hypophysitis B_DISEASE B_DISEASE
+secondary O O
+to O O
+ipilimumab B_DRUG B_DISEASE/B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
+was O O
+well O O
+managed O O
+with O O
+supplemantal B_DRUG B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]/B_DISEASE_ADJECTIVE[DISEASE]
+hormones I_DRUG I_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]/I_DISEASE_ADJECTIVE[DISEASE]
+. O O
+
+he O O
+suffers O O
+from O O
+colorectal O O
+cancer B_DISEASE B_DISEASE
+. O O
+
+he O O
+suffers O O
+from O O
+colorectal B_DISEASE B_DISEASE
+cancer I_DISEASE I_DISEASE
+. O O
+
+he O O
+flew O O
+from O O
+frigid O O
+New B_LOCATION B_LOCATION
+York I_LOCATION I_LOCATION
+to O O
+sunny B_LOCATION B_LOCATION
+Alabama I_LOCATION I_LOCATION
+. O O
+
+he O O
+flew O O
+from O O
+frigid O O
+New B_LOCATION B_LOCATION
+York I_LOCATION I_LOCATION
+to O O
+sunny O O
+Alabama B_LOCATION B_LOCATION
+. O O
+
+I O O
+thank O O
+my O O
+Beijing B_LOCATION B_LOCATION/B_NUMBER[MEASURE]
+friends O O
+and O O
+wish O O
+everyone O O
+a O O
+Happy B_TIME B_TIME[MEASURE]/B_PERSON
+New I_TIME I_TIME[MEASURE]/I_PERSON
+Year I_TIME I_TIME[MEASURE]/I_PERSON
+. O O
+
+I O O
+thank O O
+my O O
+Bari B_PERSON B_PERSON/B_ENT
+friends I_PERSON I_PERSON/I_ENT
+and O O
+wish O O
+everyone O O
+a O O
+Happy O O
+Casimir B_TIME B_TIME[MEASURE]/B_PERSON
+Pulaski I_TIME I_TIME[MEASURE]/I_PERSON
+Day I_TIME I_TIME[MEASURE]/I_PERSON
+. O O
+
+I O O
+admire O O
+my O O
+Bari B_PERSON B_PERSON/B_ORGANIZATION
+roommates I_PERSON I_PERSON/I_ORGANIZATION
+and O O
+wish O O
+everyone O O
+a O O
+Happy O O
+Casimir B_TIME B_TIME[MEASURE]/B_PERSON
+Pulaski I_TIME I_TIME[MEASURE]/I_PERSON
+Day I_TIME I_TIME[MEASURE]/I_PERSON
+. O O
+
+I O O
+thank O O
+my O O
+Beijing B_PERSON B_PERSON/B_ORGANIZATION
+friends I_PERSON I_PERSON/I_ORGANIZATION
+and O O
+wish O O
+everyone O O
+a O O
+Happy B_TIME B_TIME[MEASURE]/B_PERSON
+New I_TIME I_TIME[MEASURE]/I_PERSON
+Year I_TIME I_TIME[MEASURE]/I_PERSON
+. O O
+
+I O O
+thank O O
+my O O
+Bari B_LOCATION B_LOCATION/B_NUMBER[MEASURE]
+friends O O
+and O O
+wish O O
+everyone O O
+a O O
+Happy O O
+Casimir B_TIME B_TIME[MEASURE]/B_PERSON
+Pulaski I_TIME I_TIME[MEASURE]/I_PERSON
+Day I_TIME I_TIME[MEASURE]/I_PERSON
+. O O
+
+I O O
+admire O O
+my O O
+Bari B_LOCATION B_LOCATION/B_NUMBER[MEASURE]
+roommates O O
+and O O
+wish O O
+everyone O O
+a O O
+Happy O O
+Casimir B_TIME B_TIME[MEASURE]/B_PERSON
+Pulaski I_TIME I_TIME[MEASURE]/I_PERSON
+Day I_TIME I_TIME[MEASURE]/I_PERSON
 . O O
 

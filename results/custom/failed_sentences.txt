@@ -1,3 +1,21 @@
+In O O
+particular, O O
+ADIPOQ B_MOUSE_GENE B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]/B_GENE
+has O O
+beneficial O O
+functions O O
+in O O
+normalizing O O
+glucose O O
+and O O
+lipid O O
+metabolism O O
+in O O
+many O O
+peripheral O O
+tissues O O
+. O O
+
 However, O O
 advanced O O
 NGS O O
@@ -35,6 +53,20 @@ use O O
 across O O
 all O O
 genes O O
+. O O
+
+Parkinson's O O
+disease O O
+is O O
+characterized O O
+by O O
+a O O
+loss O O
+of O O
+dopamine B_BIO_MOLECULE B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]/B_BODY_PART_OR_ORGAN_COMPONENT
+and O O
+its O O
+function O O
 . O O
 
 Cystatin O O
@@ -107,6 +139,29 @@ pyrethroid O O
 resistant O O
 . O O
 
+For O O
+instance, O O
+in O O
+March O O
+2016 O O
+, O O
+Thermo O O
+Fisher O O
+acquired O O
+Affymetrix B_ORGANIZATION B_STUDY[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]/B_ORGANIZATION
+to O O
+expand O O
+its O O
+genetic O O
+analysis, O O
+bioscience, O O
+and O O
+diagnostic O O
+equipment O O
+product O O
+portfolio O O
+. O O
+
 Located O O
 in O O
 the O O
@@ -142,6 +197,42 @@ business O O
 and O O
 the O O
 arts. O O
+
+Gleevec B_DRUG B_PERSON/B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
+is O O
+also O O
+referred O O
+to O O
+by O O
+its O O
+brand O O
+name O O
+imatinib B_DRUG B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
+mesylate I_DRUG I_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
+. O O
+
+He O O
+resigned O O
+from O O
+Novartis B_ORGANIZATION B_LOCATION/B_ORGANIZATION
+and O O
+joined O O
+a O O
+biomedical O O
+startup O O
+in O O
+Cambridge O O
+. O O
+
+He O O
+played O O
+for O O
+the O O
+Seahawks B_ORGANIZATION B_PERSON/B_ORGANIZATION
+before O O
+he O O
+retired O O
+. O O
 
 He O O
 converted O O
@@ -179,23 +270,19 @@ same O O
 region O O
 . O O
 
-The O O
-United B_LOCATION B_LOCATION
-States I_LOCATION I_LOCATION
-has O O
-the O O
-largest O O
-prison O O
-population O O
-in O O
-the O O
-world, O O
+He O O
+went O O
+to O O
+a O O
+local O O
+theater O O
 and O O
+watched O O
+Jaws B_MOV B_BODY_PART_OR_ORGAN_COMPONENT/B_ENT
+before O O
 the O O
-highest O O
-per-capita O O
-incarceration O B_DISEASE/B_THERAPEUTIC_OR_PREVENTIVE_PROCEDURE
-rate O O
+Covid-19 O O
+lockdown O O
 . O O
 
 In O O
@@ -211,8 +298,8 @@ and O O
 came O O
 third B_SEQUENCE B_SEQUENCE[MEASURE]
 in O O
-Ice B_SPORT B_LOCATION
-hockey I_SPORT I_LOCATION
+Ice B_SPORT B_LOCATION/B_STUDY[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
+hockey I_SPORT I_LOCATION/I_STUDY[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
 . O O
 
 She O O
@@ -220,11 +307,35 @@ ran O O
 over O O
 to O O
 her O O
-son B_PERSON O
+son B_PERSON B_PERSON
 and O O
 gave O O
 him O O
 a O O
 kiss B_GRAMMAR_CONSTRUCT B_PERSON/B_GENE
+. O O
+
+I O O
+met O O
+my O O
+New B_LOCATION B_NUMBER[MEASURE]/B_LOCATION
+York I_LOCATION I_NUMBER[MEASURE]/I_LOCATION
+friends O O
+at O O
+the O O
+pub B_LOCATION B_LOCATION
+. O O
+
+Her O O
+hypophysitis B_DISEASE B_DISEASE
+secondary O O
+to O O
+ipilimumab B_DRUG B_DISEASE/B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
+was O O
+well O O
+managed O O
+with O O
+supplemantal B_DRUG B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]/B_DISEASE_ADJECTIVE[DISEASE]
+hormones I_DRUG I_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]/I_DISEASE_ADJECTIVE[DISEASE]
 . O O
 

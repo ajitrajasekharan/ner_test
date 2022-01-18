@@ -306,7 +306,7 @@ more O
 susceptible O
 to O
 the O
-hypertensive B_DISEASE_ADJECTIVE[DISEASE]
+hypertensive B_DISEASE_ADJECTIVE[DISEASE]/B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
 effects O
 . O
 
@@ -516,7 +516,8 @@ worldwide O
 source O
 of O
 low-molecular-weight O
-urokinase:__entity__. O
+urokinase B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
+. O
 
 Additionally, O
 the O
@@ -1381,7 +1382,7 @@ for O
 Parkinsons B_DISEASE
 . O
 
-Stanford B_LOCATION/B_PERSON
+Stanford B_LOCATION/B_STUDY[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
 called O
 . O
 
@@ -1512,7 +1513,7 @@ and O
 the O
 highest O
 per-capita O
-incarceration B_DISEASE/B_THERAPEUTIC_OR_PREVENTIVE_PROCEDURE
+incarceration O
 rate O
 . O
 
@@ -1556,8 +1557,8 @@ and O
 came O
 third B_SEQUENCE[MEASURE]
 in O
-Ice B_LOCATION
-hockey: I_LOCATION
+Ice B_LOCATION/B_STUDY[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
+hockey I_LOCATION/I_STUDY[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]
 . O
 
 She O
@@ -1565,7 +1566,7 @@ ran O
 over O
 to O
 her O
-son O
+son B_PERSON
 and O
 gave O
 him O
@@ -1648,12 +1649,12 @@ Parkinson B_PERSON
 was O
 diagnosed O
 with O
-Lou O
-gehrig's B_DISEASE
+lou B_DISEASE
+gehrig's I_DISEASE
 . O
 
-Lou O
-Gehrig B_PERSON
+Lou B_PERSON
+Gehrig I_PERSON
 who O
 works O
 for O
@@ -1661,8 +1662,8 @@ XCorp B_ORGANIZATION/B_PERSON
 and O
 lives O
 in O
-New O
-York O
+New B_LOCATION
+York I_LOCATION
 suffers O
 from O
 Parkinson's B_DISEASE
@@ -1709,6 +1710,69 @@ the O
 pub B_LOCATION
 . O
 
+I O
+met O
+my O
+girl B_PERSON/B_ENT
+friends I_PERSON/I_ENT
+at O
+the O
+pub B_LOCATION
+. O
+
+I O
+met O
+my O
+New B_PERSON/B_ORGANIZATION
+York I_PERSON/I_ORGANIZATION
+friends I_PERSON/I_ORGANIZATION
+at O
+the O
+pub B_LOCATION
+. O
+
+I O
+met O
+my O
+XCorp B_PERSON/B_ORGANIZATION
+friends I_PERSON/I_ORGANIZATION
+at O
+the O
+pub B_LOCATION
+. O
+
+I O
+met O
+my O
+two B_PERSON/B_ENT
+friends I_PERSON/I_ENT
+at O
+the O
+pub B_LOCATION
+. O
+
+He O
+was O
+diagnosed O
+with O
+non B_DISEASE
+small I_DISEASE
+cell I_DISEASE
+lung I_DISEASE
+cancer I_DISEASE
+. O
+
+He O
+was O
+diagnosed O
+with O
+non O
+small_ O
+cell O
+lung O
+cancer B_DISEASE
+. O
+
 Her O
 hypophysitis B_DISEASE
 secondary O
@@ -1722,6 +1786,42 @@ supplemantal B_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]/B_DISEASE_ADJECTIVE[DIS
 hormones I_DRUG[THERAPEUTIC_OR_PREVENTIVE_PROCEDURE]/I_DISEASE_ADJECTIVE[DISEASE]
 . O
 
+he O
+suffers O
+from O
+colorectal O
+cancer B_DISEASE
+. O
+
+he O
+suffers O
+from O
+colorectal B_DISEASE
+cancer I_DISEASE
+. O
+
+he O
+flew O
+from O
+frigid O
+New B_LOCATION
+York I_LOCATION
+to O
+sunny B_LOCATION
+Alabama I_LOCATION
+. O
+
+he O
+flew O
+from O
+frigid O
+New B_LOCATION
+York I_LOCATION
+to O
+sunny O
+Alabama B_LOCATION
+. O
+
 I O
 thank O
 my O
@@ -1731,8 +1831,52 @@ and O
 wish O
 everyone O
 a O
+Happy B_TIME[MEASURE]/B_PERSON
+New I_TIME[MEASURE]/I_PERSON
+Year I_TIME[MEASURE]/I_PERSON
+. O
+
+I O
+thank O
+my O
+Bari B_PERSON/B_ENT
+friends I_PERSON/I_ENT
+and O
+wish O
+everyone O
+a O
 Happy O
-New B_TIME[MEASURE]/B_PERSON
+Casimir B_TIME[MEASURE]/B_PERSON
+Pulaski I_TIME[MEASURE]/I_PERSON
+Day I_TIME[MEASURE]/I_PERSON
+. O
+
+I O
+admire O
+my O
+Bari B_PERSON/B_ORGANIZATION
+roommates I_PERSON/I_ORGANIZATION
+and O
+wish O
+everyone O
+a O
+Happy O
+Casimir B_TIME[MEASURE]/B_PERSON
+Pulaski I_TIME[MEASURE]/I_PERSON
+Day I_TIME[MEASURE]/I_PERSON
+. O
+
+I O
+thank O
+my O
+Beijing B_PERSON/B_ORGANIZATION
+friends I_PERSON/I_ORGANIZATION
+and O
+wish O
+everyone O
+a O
+Happy B_TIME[MEASURE]/B_PERSON
+New I_TIME[MEASURE]/I_PERSON
 Year I_TIME[MEASURE]/I_PERSON
 . O
 
